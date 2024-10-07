@@ -1,0 +1,38 @@
+<br>
+<main class="main">
+    <div style="text-align: center">
+      <h1>
+        {{ title }}
+      </h1>
+    </div>
+        
+</main>
+<div class="container">
+    <!-- Usando Grids do Bootstrap -->
+    <div class="row">
+      
+      <!-- Lado esquerdo - ocupando 20% -->
+      <div class="col-12 col-md-2 bg-light">
+        <!-- Adicione o conteúdo como "Turma", "Turno" e "Unidade" -->
+        <p>Turma: ADS0301M</p>
+        <p>Turno: Manhã</p>
+        <p>Unidade: Bonsucesso</p>
+      </div>
+  
+      <!-- Lado centro - ocupando 16% -->
+      <div class="col-12 col-md-6 bg-info text-center">
+        <!-- Foto 3x4 centralizada -->
+        <img src="aluno.png" alt="Foto Aluno" class="img-fluid rounded" style="max-width: 200px;">
+        <p>Nome do Aluno: Alan dos Santos Silva</p>
+      </div>
+      
+      <!-- Lado direito - ocupando 8% -->
+      <div class="col-12 col-md-4 bg-light">
+        <!-- Adicione o conteúdo do lado direito -->
+        <p>Matrícula: 22201302</p>
+      </div>
+  
+    </div>
+  </div>
+  
+<router-outlet />
